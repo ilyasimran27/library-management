@@ -1,0 +1,253 @@
+body{
+    margin:0;
+}
+header{
+    width:100%;
+    background-color:#ffdc73;
+    float:left;
+    border-bottom: 2px solid black;
+    position:fixed;
+
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+header .logo{
+    width:30%;
+    float:left;
+
+    margin:10px 0 7px 0;
+}
+header .logo img{
+    width:30%;
+    float:left;
+
+}
+.logo .heading{
+    width:40%;
+    float:left;
+    font-style: italic;
+    font-family:"Franklin Gothic Heavy";
+    font-size: 30px;
+    font-weight: bold;
+    margin:70px 0 0 5px;
+}
+nav{
+    width:60%;
+    float:left;
+    /*background-color: yellow;*/
+    margin:0 0 0 100px;
+    padding:20px 0 0 0;
+
+}
+header nav ul{
+    float:right;
+    margin:30px 0 0 0 ;
+
+}
+header ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin:10px 20px;
+
+
+
+}
+header ul li:last-child a{
+    background-color: blueviolet;
+    color: yellow;
+}
+header ul li:last-child a:hover{
+    background-color: #281e1e;
+    color: #ffffff;}
+
+header ul li a{
+    color:#3491de;
+    font-family:Corbel;
+    text-decoration: none;
+    font-size: 15px;
+    padding:5px;
+    border-radius:15%;
+transition: .3s;
+}
+header ul li a:hover{
+    background-color: white;
+    color: black;
+}
+header ul li:last-child a:focus{
+    background-color: black;
+    color: #ffffff;}
+header ul li a:focus {
+    background-color: yellow;
+    color: white;
+}
+.ban,.ban2,.ban3{
+    width:100%;
+    float:left;
+    text-align:center;
+    background-image:url(" ../image/bk5.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    animation:slider 20s infinite ;
+}
+.overlay{
+    padding:200px 0;
+    background-color:rgba(195, 195, 195, 0.4);
+}
+.theme{
+    background-color: #ffdc73;
+    font-family: "Cambria Math";
+    font-size: 70px;
+    color:purple;
+    padding:10px;
+    border-radius: 20%;
+
+}
+.box,.box2{
+    width:100%;
+    float:left;
+    padding:30px 0 10px 0;
+    background-color:#ffdc73 ;
+}
+ .flower{
+    width:20%;
+
+    float:left;
+    margin:20px 0;
+    background:red;
+    border:2px solid black;
+
+
+
+
+
+}
+.flower h2{
+    width:100%;
+    height:700px;
+    float:left;
+    font-family:Jokerman;
+    text-align: center;
+font-weight: bold;
+    color:white;
+
+}
+ .story{
+    width:70%;
+    float:left;
+    text-align: center;
+    background-color: purple;
+    border:2px solid white;
+
+    margin:0 0 0 40px;
+}
+.story h1{
+    font-size: 50px;
+    color:red;
+    font-family:Haettenschweiler;
+}
+
+ .smallbox{
+    width:20%;
+    float:left;
+    text-align: center;
+    max-height: 300px;
+    min-height: 300px;
+    margin:10px 0 0 10px;
+    border:1px solid black;
+    border-radius: 2%;
+    background-color: purple;
+     transition: .5s;
+}
+.smallbox img{
+    margin:10px 70px;
+    width:40%;
+    float:left;
+    transition:.3s;
+    cursor:pointer;
+}
+.smallbox h1{
+    width:100%;
+    float:left;
+    font-family: Centaur;
+    color:white;
+}
+.smallbox:hover{
+    background-color: black;
+}
+.ban2{
+    background-image:url(" ../image/bk2.jpg");
+}
+.ban2 .overlay .theme{
+    background-color: #a0efed;
+    font-family: "Cambria Math";
+    font-size: 70px;
+    color:purple;
+    padding:10px;
+    border-radius: 20%;
+
+
+}
+.box2 .flower{
+    background-color: #6ce263;
+}
+.box2 .flower h2{
+    color:black;
+}
+.box2 .story h1{
+    color:white;
+}
+.box2 .smallbox {
+    background-color: #6ce263;
+}
+.box2 .smallbox:hover{
+    background-color: white;
+}
+.box2 .smallbox h1{
+    color:black;
+}
+.ban3{
+    background-image:url(" ../image/bk1.jpg");
+}
+.ban3 .overlay .theme{
+    background-color: #b5072a;
+    font-family: "Cambria Math";
+    font-size: 70px;
+    color:lightblue;
+    padding:10px;
+    border-radius: 20%;
+
+
+}
+footer{
+    float:left;
+    width:100%;
+
+}
+
+footer .bottomlayout{
+    float:left;
+    width:100%;
+
+
+    text-align: center;
+}
+footer .bottomlayout p{
+    font-size: 20px;
+    background-color: #281e1e;
+    color:white;
+}
+@keyframes slider {
+    0%{
+        background-image:url(" ../image/bk5.jpg");
+    }
+    35%{
+        background-image:url(" ../image/bk1.jpg");
+    }
+    75%{
+        background-image:url(" ../image/bk2.jpg");
+    }
+
+}

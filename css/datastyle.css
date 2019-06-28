@@ -1,0 +1,136 @@
+body{
+    margin:0;
+}
+header{
+    width:100%;
+    background-color:#ffdc73;
+    float:left;
+    border-bottom: 2px solid black;
+    position:fixed;
+
+}
+
+header .logo{
+    width:30%;
+    float:left;
+
+    margin:10px 0 7px 0;
+}
+header .logo img{
+    width:30%;
+    float:left;
+
+}
+.logo .heading{
+    width:40%;
+    float:left;
+    font-style: italic;
+    font-family:"Franklin Gothic Heavy";
+    font-size: 30px;
+    font-weight: bold;
+    margin:70px 0 0 5px;
+}
+nav{
+    width:60%;
+    float:left;
+    /*background-color: yellow;*/
+    margin:0 0 0 100px;
+    padding:20px 0 0 0;
+
+}
+header nav ul{
+    float:right;
+    margin:30px 0 0 0 ;
+
+}
+header ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin:10px 20px;
+
+
+
+}
+header ul li:last-child a{
+    background-color: blueviolet;
+    color: yellow;
+}
+header ul li:last-child a:hover{
+    background-color: #281e1e;
+    color: #ffffff;}
+
+header ul li a{
+    color:#3491de;
+    font-family:Corbel;
+    text-decoration: none;
+    font-size: 15px;
+
+    padding:5px;
+    border-radius:15%;
+    transition: .3s;
+}
+header ul li a:hover{
+    background-color: white;
+    color: black;
+}
+header ul li:last-child a:focus{
+    background-color: black;
+    color: #ffffff;}
+header ul li a:focus {
+    background-color: yellow;
+    color: white;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.ban{
+    float:left;
+    width:100%;
+    background-image: url(" ../image/bk8.jpg");
+    background-repeat: no-repeat;
+
+    text-align: center;
+    background-size:cover;
+    background-position:center center;
+}
+.overlay{
+    float:left;
+    width:100%;
+    padding:200px 0;
+    background-color: rgba(81,81,81,0.5);
+
+
+
+
+}
+.box{
+    width:100%;
+    float:left;
+border:2px solid black;
+}
+
+.box .table{
+    float:left;
+    width:100%;
+}
+table th{
+    color:white;
+    font-size: 20px;
+    font-family: "Arial Narrow";
+
+}
+
+
+.loginhead h1{
+    font-style: italic;
+    font-family: "Microsoft JhengHei";
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    color: white;
+    text-shadow: 0 0 10px rgba(170, 170, 170,0.9) ;
+
+
+}
